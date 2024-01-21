@@ -23,11 +23,8 @@ const Home = () => {
   const [visiblePokemon, setVisiblePokemon] = useState([]);
   const [pokemonDetail, setPokemonDetails] = useState(null);
   const [offset, setOffset] = useState(0);
-  //   const [totalPokemonCount, setTotalPokemonCount] = useState(0);
-  //   const [isLoading, setIsLoading] = useState(true);
   const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
-  // const [allTypes, setAllTypes] = useState();
   const [selectedFilters, setSelectedFilters] = useState([]);
 
   const { isMobile } = useScreenWidth();
