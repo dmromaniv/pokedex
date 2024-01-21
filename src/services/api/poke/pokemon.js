@@ -1,10 +1,10 @@
 import { axiosInstance } from '.';
-import { STORAGE_KEY } from '../../../constants/storage';
+import { API } from '../../../constants/api';
 
 export async function fetchPokemon(offset) {
   const response = await axiosInstance.get('/api/v2/pokemon', {
     params: {
-      limit: STORAGE_KEY.limit,
+      limit: API.limitPage,
       offset,
     },
   });

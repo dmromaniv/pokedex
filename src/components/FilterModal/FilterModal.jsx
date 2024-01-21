@@ -4,7 +4,7 @@ import Checkbox from '../ui/Checkbox/Checkbox';
 
 import styles from './FilterModal.module.scss';
 
-const FilterModal = ({ isOpen, onClose, allTypes, onCheckboxChanged }) => {
+const FilterModal = ({ isOpen, onClearButton, onClose, allTypes, onCheckboxChanged }) => {
   const types = Object.entries(allTypes ?? {});
   return (
     <Modal isOpen={isOpen} onClose={onClose} position='right'>
@@ -12,7 +12,7 @@ const FilterModal = ({ isOpen, onClose, allTypes, onCheckboxChanged }) => {
         <div className={styles.headingWrapper}>
           <h2>Filter by type</h2>
           <Button
-            onButtonClick={() => {}}
+            onButtonClick={onClearButton}
             text='Clear all'
             variant='outlined'
           />
