@@ -1,0 +1,28 @@
+.cardWrapper {
+  max-height: 625px;
+  width: 100%;
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    width: 270px;
+  }
+
+  .cardTitle {
+    text-align: center;
+    text-transform: capitalize;
+
+    color: rgb(137, 227, 233);
+  }
+}
+
+// @media screen and (max-width: 960px) {
+//   .cardWrapper {
+//     width: 270px;
+//   }
+// }
+
+// .cardTitle {
+//   text-align: center;
+//   text-transform: capitalize;
+
+//   color: rgb(137, 227, 233);
+// }

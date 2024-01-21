@@ -1,0 +1,15 @@
+.cardWrapper {
+  width: 250px;
+  height: 100%;
+}
+
+.cardTitle {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

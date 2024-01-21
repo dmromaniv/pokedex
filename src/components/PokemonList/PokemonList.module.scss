@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+
+  .item {
+    cursor: pointer;
+
+    &:hover {
+      color: $highlighted-border-color;
+    }
+  }
+}
+
+// .item {
+//   cursor: pointer;
+// }
+
+// .item:hover {
+//   color: rgb(137, 227, 233);
+// }

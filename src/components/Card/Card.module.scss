@@ -1,0 +1,49 @@
+.cardWrapper {
+  width: 100%;
+  height: 100%;
+
+  padding: 20px;
+
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  -webkit-box-shadow: $box-shadow;
+  -moz-box-shadow: -$box-shadow;
+
+  overflow: hidden;
+
+  &.selectedCard {
+    border: 1px solid $highlighted-border-color;
+  }
+
+  .imageWrapper {
+    height: 200px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  
+    object-fit: contain;
+  }
+
+  .contentWrapper {
+    padding-top: 20px;
+  }
+}
+
+
+// .imageWrapper {
+//   height: 200px;
+// }
+
+// .image {
+//   width: 100%;
+//   height: 100%;
+
+//   object-fit: contain;
+// }
+
+// .contentWrapper {
+//   padding-top: 20px;
+// }

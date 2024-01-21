@@ -1,0 +1,55 @@
+.modalContent {
+  min-width: 280px;
+  width: 280px;
+  height: 95%;
+
+  .filterList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+    height: 85%;
+
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .filterItem {
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: capitalize;
+    }
+  }
+
+  .headingWrapper {
+    margin-bottom: 20px;
+  }
+}
+
+// .filterList {
+//   display: flex;
+//   flex-direction: column;
+//   row-gap: 5px;
+
+//   height: 85%;
+
+//   overflow-y: auto;
+//   scrollbar-width: none;
+// }
+
+// .filterList::-webkit-scrollbar {
+//   display: none;
+// }
+
+// .filterItem {
+//   font-size: 18px;
+//   font-weight: 300;
+//   text-transform: capitalize;
+// }
+
+// .headingWrapper {
+//   margin-bottom: 20px;
+// }
