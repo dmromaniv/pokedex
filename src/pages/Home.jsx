@@ -146,11 +146,13 @@ const Home = () => {
 
           {!isMobile && pokemonDetail && (
             <div className={styles.statsWrapper}>
-              <PokemonStatsСard
-                imgSrc={pokemonDetail.sprites.other.home.front_default}
-                name={pokemonDetail.name}
-                stats={pokemonDetail?.stats}
-              />
+              <div className={styles.statsCard}>
+                <PokemonStatsСard
+                  imgSrc={pokemonDetail.sprites.other.home.front_default}
+                  name={pokemonDetail.name}
+                  stats={pokemonDetail?.stats}
+                />
+              </div>
             </div>
           )}
         </section>
