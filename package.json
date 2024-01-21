@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dmromaniv.github.io/pokedex",
+  "homepage": "https://dmromaniv.github.io/pokedex/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
